@@ -1,0 +1,175 @@
+body{
+  background-image: url(..//img/1642786762_32-phonoteka-org-p-razmitie-zadnego-fona-32.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 110px 80px 1fr 1fr 1fr 1fr 1fr;
+  margin: 0;
+  text-align: center;
+}
+
+header{
+  grid-column: 1/7;
+  grid-row: 2;
+  background-color: #2c85de;
+  display: grid;
+}
+
+.header_div{
+  background-color: white;
+  grid-column:1/5 ;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.ul_lists{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr
+}
+.lists{
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list1{
+  grid-column: 1;
+}
+.list2{
+  grid-column: 2;
+}
+.list3{
+  grid-column: 3;
+}
+.list4{
+  grid-column: 4;
+}
+
+.text{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.text_div{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    color: white;
+}
+
+.form_1{
+  border: 25px;
+  border-color: black;
+  background-color: white;
+  grid-row: 4;
+  grid-column: 1;
+  width:100%;
+  padding: 5px;
+  border-bottom:1px solid #eee;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  border-radius: 10px;
+}
+
+input{
+    width: 300px;
+    border-radius: 10px;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  button{
+    border-radius: 10px;
+  }
+
+  .form_2{
+    background-color: white;
+    grid-row: 5;
+    grid-column: 1;
+    margin-top: auto;
+    width:100%;
+    padding: 5px;
+    border-bottom:1px solid #eee;
+    border: 25px;
+    border-color: black;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  }
+
+  .form_3{
+    background-color: white;
+    grid-row: 6;
+    grid-column: 1;
+    margin-top: auto;
+    width:100%;
+    padding: 5px;
+    border: 25px;
+    border-color: black;
+    border-bottom:1px solid #eee;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  }
+
+h3{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+img{
+    margin-top: 50px;
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.button1{
+    background-color: red;
+}
+
+.form_11{
+  margin-top: 15px; 
+  border: 10spx;
+  border-color: black;
+  grid-row: 3;
+  grid-column: 2/6;
+}
+
+.form_12{
+  border: 10px;
+  border-color: black;
+  margin-top: 15px; 
+  grid-row: 4;
+  grid-column: 2/6;
+}
+
+.form_13{
+  border: 10px;
+  border-color: black;
+  margin-top: 15px; 
+  grid-row: 5;
+  grid-column: 2/6;
+}
+
+.maket{
+  grid-row: 6;
+  grid-column: 1/5;
+}
+
+.save_button{
+  margin: auto;
+  height: 85px;
+  width: 300px;
+  grid-column: 3/5;
+  grid-row: 7;
+}
+
+.header_text{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'PT Sans';
+}

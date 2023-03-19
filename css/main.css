@@ -1,0 +1,77 @@
+body{
+    background-image: url(..//img/1642786762_32-phonoteka-org-p-razmitie-zadnego-fona-32.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 110px 80px 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    grid-column: 1/7;
+    grid-row: 2;
+    background-color: #2c85de;
+    display: grid;
+}
+
+.header_div{
+    background-color: white;
+    grid-column:1/5 ;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.ul_lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+.lists{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list1{
+    grid-column: 1;
+}
+.list2{
+    grid-column: 2;
+}
+.list3{
+    grid-column: 3;
+}
+.list4{
+    grid-column: 4;
+}
+.header_text{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'PT Sans';
+}
+
+.oblacko{
+    grid-row: 1;
+}
+
+.pticha{
+    grid-row: 1;
+    grid-column: 6;
+}
+
+.main_container{
+    border-radius: 15px;
+    margin-top: 15px;
+    grid-column: 2/6;
+    grid-row: 3/8;
+    background-color: white;
+}
+
+h2{
+    font-family: 'PT Sans';
+}
+article{
+    font-family: 'PT Sans';
+}
